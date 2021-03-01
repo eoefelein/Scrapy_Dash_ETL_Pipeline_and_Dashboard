@@ -16,8 +16,6 @@ from plotly.graph_objs import *
 import plotly.offline as offline
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 
-import nbimporter
-
 mapbox_access_token = "pk.eyJ1IjoiZW9lZmVsZWluIiwiYSI6ImNrNXFvdnNlZDA0cHQzcXF3MTFqNXZ3bWEifQ.cJrMnx5wyabIklvfy_gtuw"
 
 df = pd.read_csv("clean_df.csv")
